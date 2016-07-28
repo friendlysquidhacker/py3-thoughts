@@ -1,23 +1,16 @@
 from __future__ import absolute_import, division, print_function, unicode_literals
 
-try:
-	from html.parser import HTMLParser
-	version = 'py3'
-except:
-	from HTMLParser import HTMLParser
-	version = 'py2'
-finally:
-	class scraper(HTMLParser):
-		
+# The interwebz tell me this is the best library to use for requests.
+import requests
 
-try:
-	pass
-except Exception, e:
-	raise e
-finally:
-	pass
+# Now I'm going to want a parser.
+from bs4 import BeautifulSoup
 
-class 
+
+
+
+
+ 
 # -- How do I quote poetry?
 # 1: Open the URL to a poetry website
 # 2: Search for love poems
